@@ -16,6 +16,10 @@ function abrir() {
     
   }, 7000);
 }
+function setHalfVolume() {
+  var myAudio = document.getElementById("audio");
+  myAudio.volume = 0.2;
+}
 
 function yt() {
   location.href = ""
